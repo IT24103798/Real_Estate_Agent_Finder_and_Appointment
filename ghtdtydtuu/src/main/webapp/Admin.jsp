@@ -15,7 +15,7 @@
             <h2><i class="fas fa-home"></i> RealEstate Admin</h2>
         </div>
         <ul class="nav-menu">
-            <li><a href="index.jsp" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+            <li><a href="Admin.jsp" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
             <li><a href="Agents.jsp"><i class="fas fa-user-tie"></i> Agents</a></li>
             <li><a href="#"><i class="fas fa-users"></i> Users</a></li>
             <li><a href="appoinmentOverview.jsp"><i class="fas fa-calendar-check"></i> Appointments</a></li>
@@ -89,3 +89,4 @@
 <script src="Admin/JS/admin.js"></script>
 </body>
 </html>
+//update
