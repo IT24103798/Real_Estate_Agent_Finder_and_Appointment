@@ -14,7 +14,7 @@
 
     </div>
 
-    <div class="login-container" id="loginContainer">
+    <div class="login-container" id="#">
         <h1>Login</h1>
 
         <form id="loginForm" action="login" method="post">
