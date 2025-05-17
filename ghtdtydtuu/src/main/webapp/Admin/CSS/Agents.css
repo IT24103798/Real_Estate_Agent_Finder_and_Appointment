@@ -1,0 +1,95 @@
+
+.agent-management-panel {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #374151;
+    margin-bottom: 30px;
+}
+
+.agent-overview {
+    margin-bottom: 30px;
+}
+
+.agent-overview h2 {
+    color: #4b5563;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.agent-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.agent-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.agent-card h3 {
+    color: #1e293b;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.agent-card p {
+    color: #4a5568;
+    margin-bottom: 5px;
+}
+
+.agent-card strong {
+    font-weight: bold;
+    color: #1a202c;
+}
+
+.agent-card .status {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.agent-card .status.active {
+    background-color: #dcfce7;
+    color: #16a34a;
+    border: 1px solid #16a34a;
+}
+
+.agent-card .status.inactive {
+    background-color: #fee2e2;
+    color: #ef4444;
+    border: 1px solid #ef4444;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.add-new-agent {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.add-new-agent:hover {
+    background-color: #2563eb;
+}
