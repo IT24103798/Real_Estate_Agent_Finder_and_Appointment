@@ -1,0 +1,55 @@
+/* Base Font */
+body {
+    font-family: 'Segoe UI';
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('../Image/1.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Navigation */
+.nav-link {
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff4d4d!important;
+    transform: translateY(-2px);
+}
+
+/* Featured Agent Card */
+.featured-agent-card {
+    transition: all 0.3s ease;
+}
+
+.featured-agent-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Custom Button */
+.btn-custom {
+    transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+}
+
+/* Current User Info */
+.current-info {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border-bottom-left-radius: 10px;
+    z-index: 1000;
+}
